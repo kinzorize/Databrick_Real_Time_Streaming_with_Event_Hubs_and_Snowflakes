@@ -1,0 +1,3 @@
+STEP BY STEP TO GO ABOUT THIS PROJECT.
+- Create an Azure Subscription
+- Create an Azure Resource Group.
