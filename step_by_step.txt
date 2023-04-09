@@ -1,3 +1,17 @@
 STEP BY STEP TO GO ABOUT THIS PROJECT.
 - Create an Azure Subscription
 - Create an Azure Resource Group.
+- After that, let's go ahead and create a new Azure Databricks Environment.
+  * for pricing Tier : select Standard(Apache Spark, secure with Azure AD)
+  Under networking 
+  Always choose Deploy Azure Databricks workspace in your own 
+  Virtual Network "Yes".
+  * Create a Virtual Network
+   Note: Ensure that your Virtual Network and Databricks are in the same region Example US East.
+   * create two subnet namely private and public subnet.
+   * Add public and private subnet on your databricks.
+
+- Create another Databricks Environment without attaching Virtual Network to it.
+- Under databricks, create a cluster
+- click on workspace and select import, to import the Structured-Streaming-Concepts.dbc file into the notebook
+- import the Dataset-Mounts1.dbc
