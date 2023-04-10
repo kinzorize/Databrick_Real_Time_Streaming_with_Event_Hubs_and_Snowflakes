@@ -15,3 +15,8 @@ STEP BY STEP TO GO ABOUT THIS PROJECT.
 - Under databricks, create a cluster
 - click on workspace and select import, to import the Structured-Streaming-Concepts.dbc file into the notebook
 - import the Dataset-Mounts1.dbc
+- Create a Snowflake 
+- Create an Event Hub
+- Write the screaming data to Azure Event Hubs
+- Read from the Event hubs
+- Write data to Snowflakes
