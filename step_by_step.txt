@@ -20,3 +20,4 @@ STEP BY STEP TO GO ABOUT THIS PROJECT.
 - Write the screaming data to Azure Event Hubs
 - Read from the Event hubs
 - Write data to Snowflakes
+
